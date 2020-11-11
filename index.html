@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy birthday SHINY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <video id="a" src="hbd.mp4" autoplay onclick="hi()"></video>
+        <h1 onclick="hi()">Happy birthday Shiny!! Wish u all success<br><span style="font-size: 2rem"> (click anywhere)</span> </h1>
+
+    </section>
+
+    <script>
+        function hi() {
+            var vid = document.getElementById('a');
+            vid.autoplay = true;
+            vid.load();
+        }
+    </script>
+</body>
+
+</html>

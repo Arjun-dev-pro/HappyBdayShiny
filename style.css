@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #FFAFBD, #ffc3a0);
+}
+
+section h1 {
+    position: relaive;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    z-index: 2;
+    background: linear-gradient(45deg, #ee0979, #ff6a00);
+    padding: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+section video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
